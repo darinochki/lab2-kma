@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Buy List</title>
+
+    <link rel="stylesheet" type="text/css" href="main1.css"/>
+</head>
+<body>
+    <section class="blocks">
+        <section class="block-one">
+            <!-- search bar -->
+            <section class="search">
+                <input type="text" class="search-field" placeholder="Назва товару" /> 
+                <button class="add-button" data-tooltip="Новий продукт">Додати</button>
+            </section> 
+            <hr/>
+            <!-- product item помідори -->
+            <section class="product-item-buy">
+                <section class="product-buy">Помідори</section>
+                <section class="number-only">
+                    <span class="item-counter-number">2</span>
+                </section> 
+                <section class="not-buy-pr">
+                    <button class="not-buy-product" data-tooltip="Не куплено">Не куплено</button>
+                </section>
+            </section> 
+            <hr/>
+            <!-- product item печиво -->
+            <section class="product-item">
+                <section class="product">Печиво</section> 
+                <section class="number-of-products">
+                    <button class="minus-button" data-tooltip="Видалити">-</button> 
+                    <span class="item-counter-number">2</span>
+                    <button class="plus-button" data-tooltip="Додати">+</button>
+                </section> 
+                <section class="buy-pr">
+                    <button class="buy-product" data-tooltip="Куплено">Куплено</button> 
+                    <button class="not-button" data-tooltip="Видалити">x</button>
+                </section> 
+            </section>
+            <hr/>
+            <!-- product item Сир -->
+            <section class="product-item" id="cheese">
+                <input type="text" class="product-cheese" value="Сир" />
+                <section class="buy-button-items">
+                    <section class="number-of-products-cheese">
+                        <button class="minus-button" data-tooltip="Видалити" id="1" disabled>-</button>
+                        <span class="item-counter-number">1</span>
+                        <button class="plus-button" data-tooltip="Додати">+</button>
+                    </section>
+                </section>
+                <section class="buy-pr" id="cheese-buy">
+                    <button class="buy-product" data-tooltip="Куплено">Куплено</button> 
+                    <button class="not-button" data-tooltip="Видалити">x</button>
+                </section>
+            </section>    
+        </section>
+        <section class="block-two">
+            <section class="block-two-container">
+                <section class="inscription">
+                    <span class="remained">Залишилося</span> 
+                </section>
+                <hr/>
+                <section class="not-buy-products-section">
+                    <section class="not-buy-products-section-cookie">
+                        <span class="not-pr-buy">Печиво</span>
+                        <span class="not-pr-buy-num">2</span>
+                    </section>
+                    <section class="not-buy-products-section-cheese">
+                        <span class="not-pr-buy">Сир</span>
+                        <span class="not-pr-buy-num">1</span>
+                    </section>
+                </section>
+                <hr/>
+                <section class="inscription">
+                    <span class="bought">Куплено</span> 
+                </section>
+                <hr/>
+                <section class="buy-products-section">
+                    <section class="buy-products-section-tomatos">
+                        <span class="pr-buy">Помідори</span>
+                        <span class="pr-buy-num">2</span>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </section>
+    <section class="badge">
+        <span class="title-label">Buy List</span>
+        <span class="created-by-label">Created by:</span>
+        <span class="author-label">Daryna Darii</span>
+    </section>
+    <section class="print-badge">
+        <span class="created-by-label">Created by:</span>
+        <span class="author-label">Daryna Darii</span>
+    </section>
+</body>
+</html>
